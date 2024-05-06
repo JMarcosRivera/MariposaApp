@@ -1,0 +1,33 @@
+.header{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height:100px;
+    position:sticky;
+    top:0px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    z-index:200;
+}
+
+.menu-icon{
+    font-size:40px;
+    font-weight: 600;
+    color:black;
+    
+}
+.logo-container{
+    width:220px;
+    height:100%;
+    justify-self: center;
+}
+.logo{
+    height:100%;
+    width:100%;
+}
+.Menu{
+    padding-left: 20%;
+    display:flex;
+    align-items: center;
+}

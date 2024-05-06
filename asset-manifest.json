@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/MariposaApp/static/css/main.569e787d.css",
+    "main.js": "/MariposaApp/static/js/main.11d7b110.js",
+    "static/media/category-pizzas.png": "/MariposaApp/static/media/category-pizzas.3e67cb42273873dd15fb.png",
+    "static/media/pablo-pacheco-D3Mag4BKqns-unsplash.jpg": "/MariposaApp/static/media/pablo-pacheco-D3Mag4BKqns-unsplash.3cfe1d77fd42b9884982.jpg",
+    "static/media/franja-image.png": "/MariposaApp/static/media/franja-image.b135b5321640d48faa71.png",
+    "static/media/category-tacos.png": "/MariposaApp/static/media/category-tacos.d97e9c7155bc5284b0dd.png",
+    "static/media/pizza-queso.png": "/MariposaApp/static/media/pizza-queso.8a2a1ff645029b406a16.png",
+    "static/media/category-entrantes.png": "/MariposaApp/static/media/category-entrantes.7aafdc35bd8ee2327c56.png",
+    "static/media/image-2.jpeg": "/MariposaApp/static/media/image-2.6d4c21df572dcc052941.jpeg",
+    "static/media/category-bebidas.png": "/MariposaApp/static/media/category-bebidas.a4f7a85564aa49584e01.png",
+    "static/media/category-postres.png": "/MariposaApp/static/media/category-postres.43cfc146e25c5c756eef.png",
+    "static/media/category-infusiones.png": "/MariposaApp/static/media/category-infusiones.99721ee06c70e8240636.png",
+    "static/media/category-cocteles.png": "/MariposaApp/static/media/category-cocteles.c19a0241f85da13d06f8.png",
+    "static/media/image-1.jpeg": "/MariposaApp/static/media/image-1.e27ef13f0a0eb2a9c8e5.jpeg",
+    "static/media/image-5.jpeg": "/MariposaApp/static/media/image-5.1f6ff0076d829e9871ca.jpeg",
+    "static/media/image-6.jpeg": "/MariposaApp/static/media/image-6.8cd9492e79816d059fc3.jpeg",
+    "static/media/logo-transparente.jpeg": "/MariposaApp/static/media/logo-transparente.8edcc58339dcf3432535.jpeg",
+    "static/media/image-4.jpeg": "/MariposaApp/static/media/image-4.eb6bf9042e0f27a5d899.jpeg",
+    "static/media/image-3.jpeg": "/MariposaApp/static/media/image-3.c76e1072bb0e015937d9.jpeg",
+    "static/media/chicharritas.jpg": "/MariposaApp/static/media/chicharritas.58e4d2582b23710ee431.jpg",
+    "static/media/category-desayunos.png": "/MariposaApp/static/media/category-desayunos.8bdbd55c948003523dca.png",
+    "static/media/category-hamburguesas.png": "/MariposaApp/static/media/category-hamburguesas.dd18a7add776c1d4ad72.png",
+    "index.html": "/MariposaApp/index.html",
+    "main.569e787d.css.map": "/MariposaApp/static/css/main.569e787d.css.map",
+    "main.11d7b110.js.map": "/MariposaApp/static/js/main.11d7b110.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.569e787d.css",
+    "static/js/main.11d7b110.js"
+  ]
+}

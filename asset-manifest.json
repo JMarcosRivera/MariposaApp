@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MariposaApp/static/css/main.569e787d.css",
-    "main.js": "/MariposaApp/static/js/main.11d7b110.js",
+    "main.css": "/MariposaApp/static/css/main.787ab9c2.css",
+    "main.js": "/MariposaApp/static/js/main.8b975aab.js",
     "static/media/category-pizzas.png": "/MariposaApp/static/media/category-pizzas.3e67cb42273873dd15fb.png",
     "static/media/pablo-pacheco-D3Mag4BKqns-unsplash.jpg": "/MariposaApp/static/media/pablo-pacheco-D3Mag4BKqns-unsplash.3cfe1d77fd42b9884982.jpg",
     "static/media/franja-image.png": "/MariposaApp/static/media/franja-image.b135b5321640d48faa71.png",
@@ -23,11 +23,11 @@
     "static/media/category-desayunos.png": "/MariposaApp/static/media/category-desayunos.8bdbd55c948003523dca.png",
     "static/media/category-hamburguesas.png": "/MariposaApp/static/media/category-hamburguesas.dd18a7add776c1d4ad72.png",
     "index.html": "/MariposaApp/index.html",
-    "main.569e787d.css.map": "/MariposaApp/static/css/main.569e787d.css.map",
-    "main.11d7b110.js.map": "/MariposaApp/static/js/main.11d7b110.js.map"
+    "main.787ab9c2.css.map": "/MariposaApp/static/css/main.787ab9c2.css.map",
+    "main.8b975aab.js.map": "/MariposaApp/static/js/main.8b975aab.js.map"
   },
   "entrypoints": [
-    "static/css/main.569e787d.css",
-    "static/js/main.11d7b110.js"
+    "static/css/main.787ab9c2.css",
+    "static/js/main.8b975aab.js"
   ]
 }

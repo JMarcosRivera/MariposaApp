@@ -101,9 +101,9 @@
 .product-image{
     width:50%;
     height:100%;
+    object-fit: cover;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
-    object-fit:cover;
 }
 .product-info{
     display:grid;

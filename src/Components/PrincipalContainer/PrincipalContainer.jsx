@@ -5,19 +5,20 @@ import CarouselComponent from "../Carousel/Carousel";
 import RecomendadosComponent from '../RecomendadosComponent/RecomentadosComponent';
 import Franja from '../Franja/Franja';
 import MenuContainer from '../MenuComponent/MenuContainer/MenuContainer';
+import { forwardRef } from 'react';
 
-function PrincipalContainer(){
-
+const PrincipalContainer = forwardRef(({},ref)=>{
     return(
-        <div className='principal-container'>
+        <div className='principal-container' ref={ref}>
             <OrderInfo />
             <CarouselComponent/>
             <RecomendadosComponent />
             <Franja />
-            <MenuContainer/>
+            <MenuContainer />
         </div>
     );
 
-}
+});
+
 
 export default PrincipalContainer;

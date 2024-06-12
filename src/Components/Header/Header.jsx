@@ -10,11 +10,11 @@ import { FaYoutube } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
 
 
-function Header() {
+function Header({backFunction}) {
 
     const ref = useRef(null);
     const [open , setOpen] = useState(0);
-  
+    const [option,setOption] = useState("Inicio");
 
     const handleNavScroll = () => {
         let nav = ref.current;
@@ -27,9 +27,14 @@ function Header() {
             setOpen(1);
         }
     }
+    const onSectionClick = (idName) =>{
+        handleNavScroll();
+        backFunction(idName);
+    }
 
     return (
         <>
+
             <header className="header">
                 
                 <div className="Menu">
@@ -50,10 +55,10 @@ function Header() {
                 <ShoopingCart />
             </header>
             <ul className="menu-horizontal" ref={ref}>
-                <li className="navbar-li"> <a className="menu-item" href="#Inicio"> Inicio </a></li>
-                <li className="navbar-li"> <a className="menu-item" href="#Recomendados"> Recomendados </a></li>
-                <li className="navbar-li"> <a className="menu-item" href="#Menu"> Menu </a></li>
-                <li className="navbar-li"> <a className="menu-item" href="#"> Acerca de Nosotros </a></li>
+                <li className="navbar-li"> <a className="menu-item"  onClick={()=>onSectionClick('Inicio')}> Inicio </a></li>
+                <li className="navbar-li"> <a className="menu-item" onClick={()=>onSectionClick('Recomendados')}> Recomendados </a></li>
+                <li className="navbar-li"> <a className="menu-item" onClick={()=>onSectionClick('Menu')}> Menu </a></li>
+                <li className="navbar-li"> <a className="menu-item"> Acerca de Nosotros </a></li>
 
                 <div className="social-container">
                     <div className="social-item">

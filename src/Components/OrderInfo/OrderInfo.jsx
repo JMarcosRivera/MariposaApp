@@ -5,7 +5,7 @@ import Order from '../Order/Order';
 function OrderInfo(){
 
     return(
-        <div className='order-info'>
+        <div className='order-info' id="Inicio">
             <Order />
         </div>
     );

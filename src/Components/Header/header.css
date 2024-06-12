@@ -2,15 +2,15 @@
     display:grid;
     grid-template-columns: 1fr 3fr 1fr;
     height:100px;
+    width: 100%;
+    top:0;
     position:sticky;
-    top:0px;
     text-align: center;
     background-color:white;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     z-index:201;
 }
-
 .menu-icon{
     font-size:40px;
     font-weight: 600;

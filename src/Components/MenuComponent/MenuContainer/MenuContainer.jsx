@@ -42,8 +42,10 @@ function MenuContainer(){
        }
     }
 
-    return(
-        <div className='menu-container'>
+    
+
+    return( 
+        <div className='menu-container' id="Menu">
             
             <CategoryComponent  backFunction={modifyVisibility} categoryName='Entrantes' visibilityArray={visibility} id={0}  categoryPicture={CategoryEntrantes} products={jsonArray} ref={refArray[0]}/>
             <CategoryComponent  backFunction={modifyVisibility} categoryName='Desayunos' visibilityArray={visibility}  id={1} categoryPicture={CategoryDesayunos} products={jsonArray} ref={refArray[1]}/>
@@ -70,7 +72,7 @@ const jsonArray = [
         "price" : "300",
         "category" : "Bebidas",
         "description" : "Botella de agua natural de 1500ml",
-        "imageUrl" : "Images/Products/agua-1500ml.jpg",
+        "imageUrl" : "agua-1500ml.jpg",
         "id" : 1
     },
     {
@@ -78,7 +80,7 @@ const jsonArray = [
         "price" : "150",
         "category" : "Bebidas",
         "description" : "Botella de agua natural de 500ml",
-        "imageUrl" : "Images/Products/agual-500ml.jpg",
+        "imageUrl" : "agual-500ml.jpg",
         "id" : 2
     },
     {
@@ -86,7 +88,7 @@ const jsonArray = [
         "price" : "280",
         "category" : "Bebidas",
         "description" : "Batido de frutas naturales",
-        "imageUrl" : "Images/Products/batido-fruta.jpg",
+        "imageUrl" : "batido-fruta.jpg",
         "id" : 3
     },
     {
@@ -94,7 +96,7 @@ const jsonArray = [
         "price" : "500",
         "category" : "Bebidas",
         "description" : "Batido de Helado",
-        "imageUrl" : "Images/Products/batido-helado.jpeg",
+        "imageUrl" : "batido-helado.jpeg",
         "id" : 4
     },
     {
@@ -102,7 +104,7 @@ const jsonArray = [
         "price" : "580",
         "category" : "Bebidas",
         "description" : "Batido de helado con panetela",
-        "imageUrl" : "Images/Products/batido-helado-panetela.jpeg"
+        "imageUrl" : "batido-helado-panetela.jpeg"
         ,"id":5
     },
     {
@@ -110,7 +112,7 @@ const jsonArray = [
         "price" : "300",
         "category" : "Bebidas",
         "description" : "Bebidas energizantes",
-        "imageUrl" : "Images/Products/energizante.jpg",
+        "imageUrl" : "energizante.jpg",
         "id": 6
     },
     {
@@ -118,7 +120,7 @@ const jsonArray = [
         "price" : "420",
         "category" : "Bebidas",
         "description" : "Coca Cola con leche condensada",
-        "imageUrl" : "Images/Products/coca-cola-leche.jpg",
+        "imageUrl" : "coca-cola-leche.jpg",
         "id":7
     },
     {
@@ -126,7 +128,7 @@ const jsonArray = [
         "price" : "320",
         "category" : "Bebidas",
         "description" : "Malta importada",
-        "imageUrl" : "Images/Products/malta_import.jpg",
+        "imageUrl" : "malta_import.jpg",
         "id" : 8
     },
     {
@@ -134,7 +136,7 @@ const jsonArray = [
         "price" : "420",
         "category" : "Bebidas",
         "description" : "Malteda",
-        "imageUrl" : "Images/Products/malteada.jpg",
+        "imageUrl" : "malteada.jpg",
         "id" : 9
     },
     {
@@ -142,7 +144,7 @@ const jsonArray = [
         "price" : "250",
         "category" : "Bebidas",
         "description" : "Refrescos de produccion nacional",
-        "imageUrl" : "Images/Products/agual-500ml.jpg",
+        "imageUrl" : "agual-500ml.jpg",
         "id" : 10
     },
     {
@@ -150,7 +152,7 @@ const jsonArray = [
         "price" : "200",
         "category" : "Bebidas",
         "description" : "Limonada Natural",
-        "imageUrl" : "Images/Products/limonada.jpg",
+        "imageUrl" : "limonada.jpg",
         "id":11
     },
     {
@@ -158,7 +160,7 @@ const jsonArray = [
         "price" : "260",
         "category" : "Cocteles",
         "description" : "Cervezas importadas",
-        "imageUrl" : "Images/Products/cerveza-importada.jpg",
+        "imageUrl" : "cerveza-importada.jpg",
         "id" : 12
     },
     {
@@ -166,7 +168,7 @@ const jsonArray = [
         "price" : "300",
         "category" : "Cocteles",
         "description" : "Cervezas Nacionales",
-        "imageUrl" : "Images/Products/cervezas-nacionales",
+        "imageUrl" : "cervezas-nacionales.jpg",
         "id" : 13
     },
     {
@@ -174,7 +176,7 @@ const jsonArray = [
         "price" : "400",
         "category" : "Cocteles",
         "description" : "Chelada con cerveza nacional",
-        "imageUrl" : "Images/Products/chelada-nacional.jpg",
+        "imageUrl" : "chelada-nacional.jpg",
         "id":14
     },
     {
@@ -182,7 +184,7 @@ const jsonArray = [
         "price" : "550",
         "category" : "Cocteles",
         "description" : "Michelada con cerveza nacional",
-        "imageUrl" : "Images/Products/michelada-con-cerveza-nacional.jpg",
+        "imageUrl" : "michelada-con-cerveza-nacional.jpg",
         "id":15
     },
     {
@@ -190,7 +192,7 @@ const jsonArray = [
         "price" : "340",
         "category" : "Cocteles",
         "description" : "Colada sin alcohol",
-        "imageUrl" : "Images/Products/pina-colada-sin-alcohol.jpg",
+        "imageUrl" : "pina-colada-sin-alcohol.jpg",
         "id":16
     },
     {
@@ -198,7 +200,7 @@ const jsonArray = [
         "price" : "350",
         "category" : "Cocteles",
         "description" : "Trago Mariposa ( Especial de la casa) ",
-        "imageUrl" : "Images/Products/trago-mariposa.jpg",
+        "imageUrl" : "trago-mariposa.jpeg",
         "id": 17
     },
     {
@@ -206,7 +208,7 @@ const jsonArray = [
         "price" : "120",
         "category" : "Infusiones-Cafe",
         "description" : "Cafe Espreso",
-        "imageUrl" : "Images/Products/cafe-espreso.jpg",
+        "imageUrl" : "cafe-espreso.jpg",
         "id" : 18
     },
     {
@@ -214,7 +216,7 @@ const jsonArray = [
         "price" : "160",
         "category" : "Infusiones-Cafe",
         "description" : "Cafe Cortado",
-        "imageUrl" : "Images/Products/cafe-cortado.jpg",
+        "imageUrl" : "cafe-cortado.jpg",
         "id":19
     }
     ,
@@ -223,7 +225,7 @@ const jsonArray = [
         "price" : "250",
         "category" : "Infusiones-Cafe",
         "description" : "Cafe Bombom",
-        "imageUrl" : "Images/Products/cafe-bombon.jpg",
+        "imageUrl" : "cafe-bombon.jpg",
         "id":20
     }
     ,
@@ -232,7 +234,7 @@ const jsonArray = [
         "price" : "300",
         "category" : "Entrantes",
         "description" : "Racion de Malangas fritas",
-        "imageUrl" : "Images/Products/malangas-fritas.jpg",
+        "imageUrl" : "malangas-fritas.jpg",
         "id":21
     }
     ,
@@ -241,7 +243,7 @@ const jsonArray = [
         "price" : "180",
         "category" : "Entrantes",
         "description" : "Chicharritas de platano",
-        "imageUrl" : "Images/Products/chicharritas.jpg",
+        "imageUrl" : "chicharritas.jpg",
         "id":22
     }
     ,
@@ -250,7 +252,7 @@ const jsonArray = [
         "price" : "300",
         "category" : "Entrantes",
         "description" : "Croquetas de la casa",
-        "imageUrl" : "Images/Products/croquetas.jpeg",
+        "imageUrl" : "croquetas.jpeg",
         "id":23
     }
     ,
@@ -259,7 +261,7 @@ const jsonArray = [
         "price" : "350",
         "category" : "Entrantes",
         "description" : "Tostones de Jamon y queso",
-        "imageUrl" : "Images/Products/tostones-jamon-queso.jpg",
+        "imageUrl" : "tostones-jamon-queso.jpg",
         "id":24
     }
     ,
@@ -268,7 +270,7 @@ const jsonArray = [
         "price" : "600",
         "category" : "Entrantes",
         "description" : "Crema de queso",
-        "imageUrl" : "Images/Products/crema-queso.jpg",
+        "imageUrl" : "crema-queso.jpg",
         "id":25
     }
     ,
@@ -277,7 +279,7 @@ const jsonArray = [
         "price" : "700",
         "category" : "Entrantes",
         "description" : "Crema de jamon y queso",
-        "imageUrl" : "Images/Products/crema-jamon-queso.jpg",
+        "imageUrl" : "crema-jamon-queso.jpg",
         "id":26
     }
     ,
@@ -286,7 +288,7 @@ const jsonArray = [
         "price" : "1500",
         "category" : "Entrantes",
         "description" : "Picadera de la casa ( Fritas, fajitas de pollo, croquetas, jamon, queso, chorizo, salchicha, aceituna, salsas..",
-        "imageUrl" : "Images/Products/picadera-mariposa.jpeg",
+        "imageUrl" : "picadera-mariposa.jpeg",
         "id":27
     }
 

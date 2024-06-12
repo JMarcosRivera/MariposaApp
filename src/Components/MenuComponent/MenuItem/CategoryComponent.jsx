@@ -2,9 +2,9 @@ import React from 'react';
 import '../menu-style.css';
 import { GoChevronDown } from "react-icons/go";
 import { useEffect, useState, useRef } from 'react';
-import x from '../../../Resources/Products/chicharritas.jpg';
 import { FaCartPlus } from "react-icons/fa";
 import { forwardRef } from 'react';
+import x from '../../../'
 
 const CategoryComponent = forwardRef(({backFunction,categoryName, visibilityArray, id, categoryPicture, products},ref)=>{
     const [categoryProducts, setProducts] = useState([]);
@@ -66,7 +66,7 @@ const CategoryComponent = forwardRef(({backFunction,categoryName, visibilityArra
                 {
                     categoryProducts.map(product => (
                         <div className='product-card' key={product.id}>
-                            <img src={product.imageUrl} alt={product.name} className='product-image' />
+                            <img src={require(`../../../Resources/Products/${product.imageUrl}`)} alt={product.name} className='product-image' />
                             <div className='product-info'>
                                 <div className='product-name'>
                                     {product.name}

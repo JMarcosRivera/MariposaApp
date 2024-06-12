@@ -6,7 +6,7 @@ import RecomendadoItem from './RecomendadoItem';
 function RecomendadosComponent() {
     const imgUrl = '../../Resources/Transparent-Products/pizza-queso.png';
     return (
-        <>
+        <div id="Recomendados">
             <h1 className='title-recomendados'>
                 Recomendados de la Casa
             </h1>
@@ -14,7 +14,7 @@ function RecomendadosComponent() {
 
                 <RecomendadoItem badget={'Popular'} title={'Pizza Especial de queso'} urlImage={image1} />
             </div>
-        </>
+        </div>
     );
 }
 
